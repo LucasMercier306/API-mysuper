@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "api-mysuper"
+version = "0.1.0"
+description = "api-super"
+authors = ["Lucas Mercier"]
+license = "private"
+readme = "README.md"
+packages = [{include = "api_mysuper"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.92.0"
+uvicorn = "^0.20.0"
+sqlalchemy = "^2.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
